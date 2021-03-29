@@ -12,9 +12,11 @@ header, footer {
     text-align: center;
 }
 
+
 .gallery-img {
     display: none;
-    max-height: px;
+    max-height: 600px;
+    
 }
 
 .active {
