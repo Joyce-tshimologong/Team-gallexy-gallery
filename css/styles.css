@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background: rgb(194, 96, 96);
+
+}
+
+header, footer {
+    text-align: center;
+}
+
+.gallery-img {
+    display: none;
+    max-height: px;
+}
+
+.active {
+    display: block;
+}
+
+.images-gallery {
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.btns {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.btn {
+    background-color: khaki;
+    color: white;
+    font-size: 20px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.prev {
+    margin-right: 15px;
+  }
+.btn:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
